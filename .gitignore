@@ -1,0 +1,7 @@
+/terraform/.terraform/
+/terraform/*.tfstate
+/terraform/*.tfstate.backup
+/terraform/crash.log
+/terraform/*.tfplan
+/terraform/.terraform.lock.hcl
+/kubernetes/app/app-secret.yaml
