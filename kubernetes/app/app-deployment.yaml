@@ -19,4 +19,4 @@ spec:
         - name: app-container
           image: mohfathy/url-shortner-depi-app
           ports:
-            - containerPort: 80
+            - containerPort: 8000
