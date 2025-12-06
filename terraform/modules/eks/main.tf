@@ -8,7 +8,6 @@ resource "aws_eks_cluster" "cluster" {
 
   vpc_config {
     subnet_ids         = var.subnet_ids
-    security_group_ids = [var.control_plane_sg_id]
   }
 }
 
